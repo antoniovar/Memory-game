@@ -1,0 +1,64 @@
+body{
+  color: white;
+  background-color: #3f4c59;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+  border: none;
+  border-spacing: 0.5rem;
+  box-shadow: none;
+  border: none;
+}
+tr{
+  box-shadow: none;
+  border: none;
+}
+td{
+    box-shadow: none;
+    border: none;
+}
+button{
+  text-align: center;
+  width: 5rem;
+  height: 5rem;
+  font-size: 40px;
+  box-shadow: none;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+button:hover{
+  cursor: pointer;
+}
+button:disabled{
+  background-color: #ffffff65;  
+}
+.container{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.game{
+  text-align: center;
+}
+
+footer{
+  position: absolute;
+  left: 0;
+  right:0;
+  bottom: 0;
+  text-align: center;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  .container{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/27b98cb976.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="main.js"></script>
+  <title>Memory Game</title>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="game">
+        <h1>Memory Game</h1>
+        <table class="table">
+          <tr class="row">
+            <td class="column"><button id="0" onclick="showValue(0)"></button></td>
+            <td class="column"><button id="1" onclick="showValue(1)"></button></td>
+            <td class="column"><button id="2" onclick="showValue(2)"></button></td>
+            <td class="column"><button id="3" onclick="showValue(3)"></button></td>
+          </tr>
+          <tr class="row">
+            <td class="column"><button id="4" onclick="showValue(4)"></button></td>
+            <td class="column"><button id="5" onclick="showValue(5)"></button></td>
+            <td class="column"><button id="6" onclick="showValue(6)"></button></td>
+            <td class="column"><button id="7" onclick="showValue(7)"></button></td>
+          </tr>
+          <tr class="row">
+            <td class="column"><button id="8" onclick="showValue(8)"></button></td>
+            <td class="column"><button id="9" onclick="showValue(9)"></button></td>
+            <td class="column"><button id="10" onclick="showValue(10)"></button></td>
+            <td class="column"><button id="11" onclick="showValue(11)"></button></td>
+          </tr>
+          <tr class="row">
+            <td class="column"><button id="12" onclick="showValue(12)"></button></td>
+            <td class="column"><button id="13" onclick="showValue(13)"></button></td>
+            <td class="column"><button id="14" onclick="showValue(14)"></button></td>
+            <td class="column"><button id="15" onclick="showValue(15)"></button></td>
+          </tr>
+        </table>
+      </div>
+      <div class="stats">
+        <div class="correct">
+          <h3 id="correct">Correct: 0</h3>
+        </div>
+        <div class="movements">
+          <h3 id="movements">Movements: 0</h3>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Game development by <a target="_blank" href="https://github.com/antoniovar"><i class="fa-brands fa-github"></i> antoniovar</a> </p>
+  </footer>
+</body>
+</html>
