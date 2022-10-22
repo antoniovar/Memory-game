@@ -15,10 +15,6 @@ let completes = 0;
 let movements = 0;
 
 
-console.log(numbers)
-
-
-
 //Principal Function
 function showValue(id){
   backCards ++ ;
